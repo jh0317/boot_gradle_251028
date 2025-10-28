@@ -23,11 +23,8 @@ public class DemoController {
 	//public String hello() {
 	public String hello(Model model) {
 
-<<<<<<< HEAD
+
 		log.info("안녕하세요 111 222 333 444 555 666 777");
-=======
-		log.info("안녕하세요 111 222 333 444 555 666 888");
->>>>>>> ac812596c9f29786098526c6784147a0a745c244
 		
 		model.addAttribute("message", "hello.jsp 입니다");
 		
