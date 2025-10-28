@@ -24,7 +24,7 @@ public class DemoController {
 	public String hello(Model model) {
 
 
-		log.info("안녕하세요 111");
+		log.info("안녕하세요 111 333");
 		
 		model.addAttribute("message", "hello.jsp 입니다");
 		
